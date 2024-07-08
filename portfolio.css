@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0; background-color: black;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0; 
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem; 
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: rgb(209, 201, 201);
+}
+
+.project {
+    border: solid rgba(35, 34, 34, 0.832);
+    padding: 1rem;
+    margin-bottom: 1rem;  
+    background-color:rgba(35, 34, 34, 0.832);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+}
+
+/*
+section>
+    <div class="video1" style="background-color: rgba(1, 1, 1, 0.808); opacity: 20;">
+        <div  class="head tag" style="margin: 150px;" > <h1> download your shows to watch offline </h1>
+           <p2>  Save your favourites easily and always have something to watch.</p2></div>
+     
+        <div class="enjoy1" style="background-color: rgba(1, 1, 1, 0.808);">
+         <img alt="" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" data-uia="nmhp-card-animation-asset-image" class="default-ltr-cache-1d3w5wq" style="background-color: grey;">
+        </div>
+     </div>
+    </section>
+
+
+<br>
+<section>
+     <div class="video2" style="background-color:rgba(1, 1, 1, 0.808);">
+        
+        
+        <div class="head tag1" style="margin: 150px; font-size: larger;" > <h1> Watch everywhere </h1 >
+            <p2> Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV </p2>
+        </div>
+       
+        <div class="enjoy2" style="background-color: rgba(1, 1, 1, 0.808);">
+            <video data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop=""><source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4"></video>
+        </div>
+     </div>
+
+   
+
+
+</section>
